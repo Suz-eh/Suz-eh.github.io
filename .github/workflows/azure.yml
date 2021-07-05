@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+             <style>
+        
+          #pic1 {
+              position:absolute;
+              top:626px;
+              right:312px;
+              z-index:2;
+          }
+          #pic2 {
+             position:absolute;
+             top:626px;
+             left:312px;
+             z-index:2;
+          }
+          #pic3 {
+              position:absolute;
+              right:-3px;
+              top:227px;
+              border:1368px solid rgb(247,247,247);
+              z-index:1;
+          }
+         #img1c {
+             position:absolute;
+             top:795px;
+             left:21px;
+             color:rgb(87,87,87);
+             z-index:2;
+         }
+         #img2c {
+             position:absolute;
+             top:795px;
+             right:21px;
+             color:rgb(87,87,87);
+             z-index:2;
+         }
+         #allpostpic1 {
+             position:absolute;
+             top:944px;
+             right:312px;
+             z-index:2;
+         }
+         #allpostpic2 {
+             position:absolute;
+             top:944px;
+             left:312px;
+             z-index:2;
+         }
+         #allpostimg1c {
+             position:absolute;
+             color:rgb(87,87,87);
+             top:1113px;
+             left:20px;
+             z-index:2;
+         }
+         #allpostimg2c {
+             position:absolute;
+             color:rgb(87,87,87);
+             top:1113px;
+             right:20px;
+             z-index:2;
+         }
+          #all {
+              background-color:rgb(247, 247, 247);
+               
+              
+          }
+          
+          #info {
+              border:3px solid rgb(0, 0, 0);
+              background-color:rgb(247, 247, 247);
+          }
+          #about {
+              position:absolute;
+              left:58px;
+              top:264px;
+              font-size:23px;
+              z-index:6;
+          }
+          #aboutblog {
+              position:absolute;
+              top:300px;
+              left:17px;
+              z-index:6;
+          }
+          #about_me {
+              position:absolute;
+              top:356px;
+              left:54px;
+              font-size:23px;
+              font-weight:bold;
+              z-index:2;
+          }
+          #aboutme_info {
+              position:absolute;
+              top:397px;
+              left:18px;
+              z-index:2;
+          }
+          #recent {
+              position:absolute;
+              top:538px;
+              left:29px;
+              z-index:6;
+          }
+          #all_link {
+              position:absolute;
+              top:841px;
+              left:30px;
+              z-index:2;
+          }
+          #welcome {
+              position:absolute;
+              top:35px;
+              right:331px;
+              font-family:lucida handwriting,brush script MT;
+              font-size:44px;
+          }
+          #h1 {
+              position:absolute;
+              top:65px;
+              left:175px;
+              font-family:bodoni MT;
+              font-size:26px;
+          }
+        #boston {
+            position:absolute;
+            top:1145px;
+            left:24px;
+            z-index:2;
+        }
+        #boston_date {
+            position:absolute;
+            top:1207px;
+            left:81px;
+            z-index:2;
+            font-size:13.5px;
+        }
+        #boston_author {
+            position:absolute;
+            top:1207px;
+            left:21px;
+            z-index:2;
+            font-size:13.5px;
+        }
+        #boston_info {
+            position:absolute;
+            top:1227px;
+            left:30px;
+            z-index:2;
+        }
+        #boston_info2 {
+            position:absolute;
+            top:1328px;
+            left:30px;
+            z-index:2;
+        }
+        #boston_info3 {
+            position:absolute;
+            top:1507px;
+            left:30px;
+            z-index:2;
+        }
+        #vail {
+            position:absolute;
+            top:1585px;
+            left:24px;
+            z-index:2;
+        }
+         a.hover {
+            color:rgb(255, 0, 255);
+        }
+         .pics {
+             position:absolute;
+         }
+          .links {
+            
+              color:rgb(87, 87, 87);
+              text-decoration:none;
+              padding:44.6px;
+              font-family:perpetua;
+              font-size:19px;
+              
+          }
+          .headline {
+              color:rgb(102, 89, 102);
+              font-size:27px;
+          }
+         
+    </style>
+    <title>
+        Suze Around The World
+    </title>
+          <div id="all">
+          <span id="info">  
+        <a href="#welcome" class="links"id="linkhome1">Home</a>
+        <a href="#recent" class="links"id="linkrecent1">Recent Posts</a>
+         <a href="#all_link" class="links"id="linkall">All</a>
+        <a href="#about"class="links">About</a>
+        
+        <h1 id="h1"><strong id="welcome">Welcome</strong> to my blog:
+            Suze Around The World
+        </h1>
+        
+        <h2 id="about"class="headline">About</h2>
+        
+       <p id="aboutblog"> This blog is about me, who will travel to different places and then record down things such as sights, things I learned, and things I did, on this blog</p>
+       
+       <p id="about_me"class="headline"> About me</p>
+       <p id="aboutme_info">I am 12 years old and I love to read and I just had a newfound like for writing so I plan to continue doing this blog on Khan Academy or I will end up making a my own website to put the blog on. <p>
+       
+        <h3 id="recent"class="headline">Recent Posts</h3>
+        
+      <a href="#boston"><img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Bostonstraight.jpg" alt="Downtown Boston, Massachussets" id="pic1"width="249px"height="158"></a>
+      <a href="https://upload.wikimedia.org/wikipedia/commons/8/86/Bostonstraight.jpg"id="img1c">Image Courtesy</a>
+       
+       <a href="#vail"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Gore_Creek_Drive_-_Vail%2C_CO.jpg/1200px-Gore_Creek_Drive_-_Vail%2C_CO.jpg"alt="Shopping Center in Vail,Colorado"id="pic2"width="249px"height="158px"></a> 
+       <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Gore_Creek_Drive_-_Vail%2C_CO.jpg/1200px-Gore_Creek_Drive_-_Vail%2C_CO.jpg"id="img2c">Image Courtesy</a>
+       
+       <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/The_sun_and_the_moon_in_South_New_Brighton%27s_beach%2C_New_Zealand.jpg"width="10px"height="12px"id="pic3">
+       
+       
+ 
+ <h4 id="all_link" class="headline">All Posts</h4>
+ 
+ <a href="#boston"><img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Bostonstraight.jpg" alt="Downtown Boston, Massachussets" id="allpostpic1"width="249px"height="158"></a>
+      <a href="https://upload.wikimedia.org/wikipedia/commons/8/86/Bostonstraight.jpg"id="allpostimg1c">Image Courtesy</a>
+      
+      <a href="#vail"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Gore_Creek_Drive_-_Vail%2C_CO.jpg/1200px-Gore_Creek_Drive_-_Vail%2C_CO.jpg"alt="Shopping Center in Vail,Colorado"id="allpostpic2"width="249px"height="158px"></a> 
+       <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Gore_Creek_Drive_-_Vail%2C_CO.jpg/1200px-Gore_Creek_Drive_-_Vail%2C_CO.jpg"id="allpostimg2c">Image Courtesy</a>
+       
+       <h5 class="headline"id="boston">Boston, MA</h5>
+       <p id="boston_date">6/22/21</p>
+       <p id="boston_author">Suze Hsia</p>
+       <p id="boston_info"> Recently, I went to Boston, MA with my family on about the 21st of June, we had lots of fun in Boston with lots of things to do from the Freedom Trail to the Minute Man National Historic Park to the Bunker Hill Monument and Museum but best of all, what I liked best was doing the evenning cruise around Boston Harbor where I saw the skyline and learned more information on the islands also surronding Boston.
+       <p id="boston_info2">Here's a fun fact, did you know that Boston used to actually be much smaller so they almost tripled the size from back then! I cannot belive Boston used to be so much smaller and that most of Boston now is probably man-made! My family ate at lots of restraunts most of them were asain but my favorite was when we went into a little center called Eatly where they had different italian restruants in one center and after you ate you could browse along the shopping center where they had lots of italian products, which you could tell by the language they used. I learned a lot from traveling there and you could tell that Boston has a lot of history to it, from the old buildings, to the old ships no longer commisioned.</p>
+    <p id="boston_info3">   Overall, I thought Boston was pretty great but when I first arrived I thought there we were going to be visiting lots of museums and not be walking so much and sweating in the heat(yes, it was that hot it felt like 100°, and during the last few days we ate ice cream every day since it was that hot!)Another thing that I was sad about was that we didn't get to visit the Tea Party and Ships Museum because I thought that would pretty fun to do but the rest of my family unfortunately did not think so.  </p>
+       <h6 class="headline" id="vail">Vail, CO</h6>
+     </span>
+     </div>
+    </head>
+    <body>
+    </body>
+</html>
